@@ -32,3 +32,13 @@ canvas {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
+#color-container {
+    display: flex;
+    justify-content: center;
+}
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
