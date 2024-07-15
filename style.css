@@ -46,3 +46,7 @@ canvas {
     cursor: pointer;
     border-radius: 33.3%;
 }
+.color-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}

@@ -11,6 +11,7 @@ document.querySelectorAll(".color-box").forEach((box) => {
     }
   });
 });
+
 // When exiting full screen, return back to squircle
 document.addEventListener("fullscreenchange", () => {
   if (!document.fullscreenElement) {
